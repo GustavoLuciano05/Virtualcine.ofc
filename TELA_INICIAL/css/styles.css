@@ -1,0 +1,71 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-image: url('../img/thewit.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.botton1 {
+    background: rgb(119, 17, 25, 0.3);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 250px;
+    height: 80px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: monospace;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 1px 1px black;
+    margin: 20px;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 450px;
+    height: 170px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    text-shadow: 2px 2px black;
+    margin-top: 100px;
+}
+
+.botoes {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    top: 400px;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+.fundo {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 100vh;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
