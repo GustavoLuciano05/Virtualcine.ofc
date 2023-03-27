@@ -79,12 +79,12 @@
     margin-top: 30px;
     cursor: pointer;
     color: #FFF;
-    background-color: red;
+    background-color:  rgb(186, 0 , 1);
     font-weight: bold;
   }
   
   input[type="submit"]:hover {
-    background-color: #991701;
+    background-color: rgb(88, 1 , 0);
     transition: .5s;
   }
   
