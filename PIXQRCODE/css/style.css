@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Madurai', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/PIXQRCODE/img/cinema.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.principal{
+    height: 480px;
+    background: #fff;
+    max-width: 410px;
+    border-radius: 7px;
+    padding: 16px 25px;
+    transition: height 0.5s ease;
+    border: solid black 2px;
+}
+.principal{
+    height: 530px;
+}
+header h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 21px;
+}
+header p{
+    text-align: center;
+    margin-top: 5px;
+    color: #474747;
+    font-size: 16px;
+}
+.principal .form{
+    margin: 20px 0 25px;
+}
+.principal :where(input, button){
+    width: 100%;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.form input{
+    font-size: 18px;
+    padding: 0 17px;
+    border: 1px solid rgb(155, 151, 151);
+}
+.form button{
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: 60px;
+    font-size: 17px;
+    background: rgb(150, 0, 0);
+}
+.qrcodeimg{
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 55px;
+    margin-top: 40px;
+}
